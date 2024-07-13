@@ -1,3 +1,4 @@
+"use client";
 import { Button } from "@material-ui/core";
 import Link from "next/link";
 import React from "react";
@@ -5,10 +6,10 @@ import React from "react";
 const LandingPage = () => {
   return (
     <div>
-      LandingPage (unprotected )
+      LandingPage (unprotected JHHJ)
       <div>
         <Link href="/sign-in">
-          <Button>login in</Button>
+          <Button>Login</Button>
         </Link>
         <Link href="/sign-up">
           <Button>Register</Button>
